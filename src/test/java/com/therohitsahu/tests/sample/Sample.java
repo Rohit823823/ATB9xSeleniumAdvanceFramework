@@ -1,4 +1,4 @@
-package com.therohitsahu.tests;
+package com.therohitsahu.tests.sample;
 
 public class Sample {
     public static void main(String[] args) {

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/Sample.java" afterDir="false" />
+    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="10th Jan Part-1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/sample/TestSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/sample/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rohit823823"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rohit823823&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rohit823823/ATB9xSeleniumAdvanceFramework.git",
-    "accountId": "7eeea419-f228-46f1-9ac9-995181ffc9b0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rohit823823/ATB9xSeleniumAdvanceFramework.git&quot;,
+    &quot;accountId&quot;: &quot;7eeea419-f228-46f1-9ac9-995181ffc9b0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2rPzziVZoTXcvoakx2PTDsT3PWk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,17 +53,22 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml.executor": "Run",
+    "TestNG.TestVWOLogin.test_negative_vwo_login.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.Sample" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.sample.Sample" />
       <module name="ATB9xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.therohitsahu.tests.*" />
+          <option name="PATTERN" value="com.therohitsahu.tests.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +76,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin.test_negative_vwo_login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.therohitsahu.tests.vwoTestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.vwoTestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin" />
+      <option name="METHOD_NAME" value="test_negative_vwo_login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" />
+        <item itemvalue="TestNG.TestVWOLogin.test_negative_vwo_login" />
         <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
@@ -85,6 +121,19 @@
       <option name="presentableId" value="Default" />
       <updated>1736475766112</updated>
     </task>
+    <task id="LOCAL-00001" summary="10th Jan Part-1">
+      <option name="closed" value="true" />
+      <created>1736492383523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736492383525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10th Jan Part-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="10th Jan Part-1" />
   </component>
 </project>
