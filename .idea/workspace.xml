@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Project is working">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/utils/UtilsExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_vwologin.xml" afterDir="false" />
+    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Folder Structure Is Ready">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/AppointmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/MakeAppointmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/VerificationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/orangeHR/EmployeeListHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/orangeHR/LoginHRPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/DashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/FreeTrialPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/KatalonCuraTestcase/TestKatalonCura_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/orangrHRTestcase/TestOrangeHR_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml.executor": "Run",
     "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml.executor": "Run",
+    "TestNG.TestKatalonCura_POM.testAppointmentBooking.executor": "Run",
+    "TestNG.TestOrangeHR_POM.testLoginPositive.executor": "Run",
     "TestNG.TestVWOLogin.test_negative_vwo_login.executor": "Run",
+    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Run",
+    "TestNG.TestVWOLogin_POM.testLoginPositiveVWO.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework",
@@ -76,20 +83,7 @@
       <recent name="C:\Users\Dell\IdeaProjects\ATB9xSeleniumAdvanceFramework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml">
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.sample.Sample" />
-      <module name="ATB9xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.therohitsahu.tests.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestKatalonCura_POM.testAppointmentBooking">
     <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xSeleniumAdvanceFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin.xml" />
@@ -100,17 +94,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestKatalonCura_POM.testAppointmentBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xSeleniumAdvanceFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.therohitsahu.tests.KatalonCuraTestcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.KatalonCuraTestcase" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.KatalonCuraTestcase.TestKatalonCura_POM" />
+      <option name="METHOD_NAME" value="testAppointmentBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin.test_negative_vwo_login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOrangeHR_POM.testLoginPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.therohitsahu.tests.orangrHRTestcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.orangrHRTestcase" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.orangrHRTestcase.TestOrangeHR_POM" />
+      <option name="METHOD_NAME" value="testLoginPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_POM.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +139,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.therohitsahu.tests.vwoTestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin" />
-      <option name="METHOD_NAME" value="test_negative_vwo_login" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin_POM" />
+      <option name="METHOD_NAME" value="testLoginNegativeVWO" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_POM.testLoginPositiveVWO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.therohitsahu.tests.vwoTestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.vwoTestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin_POM" />
+      <option name="METHOD_NAME" value="testLoginPositiveVWO" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestKatalonCura_POM.testAppointmentBooking" />
+        <item itemvalue="TestNG.TestOrangeHR_POM.testLoginPositive" />
+        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginPositiveVWO" />
+        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginNegativeVWO" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" />
-        <item itemvalue="TestNG.TestVWOLogin.test_negative_vwo_login" />
-        <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -162,12 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736504423923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Folder Structure Is Ready">
+      <option name="closed" value="true" />
+      <created>1736507289315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736507289315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10th Jan Part-1" />
     <MESSAGE value="Project is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project is working" />
+    <MESSAGE value="Folder Structure Is Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Folder Structure Is Ready" />
   </component>
 </project>
