@@ -1,4 +1,4 @@
-package com.therohitsahu.pages.pageObjectModel.vwo;
+package com.therohitsahu.pages.pageObjectModel.vwo.normal;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

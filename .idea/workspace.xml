@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Folder Structure Is Ready">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/AppointmentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/MakeAppointmentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/katalonCura/VerificationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/orangeHR/EmployeeListHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/orangeHR/LoginHRPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/DashBoardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/FreeTrialPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/KatalonCuraTestcase/TestKatalonCura_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/orangrHRTestcase/TestOrangeHR_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_POM.java" afterDir="false" />
+    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="All Practice And Task On 15th Jan">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/normal/DashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/normal/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/utils/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_03_PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_04_POM_PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_05_POM_PropertiesReader_DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_06_Improved_POM_PropertiesReader_DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_vwologin_properties_reader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager_pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/improved_pom/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/FreeTrialPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/normal/FreeTrialPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageObjectModel/vwo/improved_pom/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/base/CommonToAllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_01_NormalScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_02_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/utils/UtilsExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/utils/UtilsExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_vwologin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwologin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +77,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml.executor": "Run",
     "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml.executor": "Run",
+    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml.executor": "Run",
+    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml.executor": "Run",
+    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml.executor": "Run",
     "TestNG.TestKatalonCura_POM.testAppointmentBooking.executor": "Run",
     "TestNG.TestOrangeHR_POM.testLoginPositive.executor": "Run",
     "TestNG.TestVWOLogin.test_negative_vwo_login.executor": "Run",
@@ -82,11 +97,38 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\IdeaProjects\ATB9xSeleniumAdvanceFramework" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\ATB9xSeleniumAdvanceFramework\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.therohitsahu.tests.vwoTestCases" />
+      <recent name="com.therohitsahu.pages.pageObjectModel.vwo.improved_pom" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestKatalonCura_POM.testAppointmentBooking">
-    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml">
+    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xSeleniumAdvanceFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager_pom.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin_properties_reader.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -130,49 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM.testLoginNegativeVWO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.therohitsahu.tests.vwoTestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.vwoTestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin_POM" />
-      <option name="METHOD_NAME" value="testLoginNegativeVWO" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVWOLogin_POM.testLoginPositiveVWO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.therohitsahu.tests.vwoTestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.therohitsahu.tests.vwoTestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.therohitsahu.tests.vwoTestCases.TestVWOLogin_POM" />
-      <option name="METHOD_NAME" value="testLoginPositiveVWO" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml" />
         <item itemvalue="TestNG.TestKatalonCura_POM.testAppointmentBooking" />
         <item itemvalue="TestNG.TestOrangeHR_POM.testLoginPositive" />
-        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginPositiveVWO" />
-        <item itemvalue="TestNG.TestVWOLogin_POM.testLoginNegativeVWO" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -209,13 +215,22 @@
       <option name="project" value="LOCAL" />
       <updated>1736507289315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All Practice And Task On 15th Jan">
+      <option name="closed" value="true" />
+      <created>1737026104622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737026104623</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10th Jan Part-1" />
     <MESSAGE value="Project is working" />
     <MESSAGE value="Folder Structure Is Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Folder Structure Is Ready" />
+    <MESSAGE value="All Practice And Task On 15th Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Practice And Task On 15th Jan" />
   </component>
 </project>
