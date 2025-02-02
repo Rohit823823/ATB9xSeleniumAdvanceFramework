@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="All Practice  On 16th Jan Logs,POM">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerSelenoidGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerTL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageFactory/DashBoardPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/pageFactory/TestVWOLogin_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_vwologin_page_factory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager_pom_retry.xml" afterDir="false" />
+    <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Selenium Framework 17th Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/CommonToAllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageFactory/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerSelenoidGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerSelenoidGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerTL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerTL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_02_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/therohitsahu/tests/vwoTestCases/TestVWOLogin_02_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,9 @@
     &quot;accountId&quot;: &quot;7eeea419-f228-46f1-9ac9-995181ffc9b0&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,32 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Sample.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_page_factory.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml.executor": "Run",
-    "TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom_retry.xml.executor": "Run",
-    "TestNG.TestKatalonCura_POM.testAppointmentBooking.executor": "Run",
-    "TestNG.TestOrangeHR_POM.testLoginPositive.executor": "Run",
-    "TestNG.TestVWOLogin.test_negative_vwo_login.executor": "Run",
-    "TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor": "Run",
-    "TestNG.TestVWOLogin_POM.testLoginPositiveVWO.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_page_factory.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom_retry.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestKatalonCura_POM.testAppointmentBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestOrangeHR_POM.testLoginPositive.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin.test_negative_vwo_login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_02_POM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_04_POM_PropertiesReader.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_05_POM_PropertiesReader_DriverManager.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_06_Improved_POM_PropertiesReader_DriverManager.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_POM.testLoginNegativeVWO.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestVWOLogin_POM.testLoginPositiveVWO.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\IdeaProjects\ATB9xSeleniumAdvanceFramework" />
@@ -95,17 +97,7 @@
       <recent name="com.therohitsahu.pages.pageObjectModel.vwo.improved_pom" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_page_factory.xml">
-    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_page_factory.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB9xSeleniumAdvanceFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin_page_factory.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml">
     <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom_retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xSeleniumAdvanceFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwologin_properties_reader_drivermanager_pom_retry.xml" />
@@ -146,13 +138,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_page_factory.xml" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom_retry.xml" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml" />
-        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom.xml" />
+        <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager_pom_retry.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737294746419</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium Framework 17th Jan">
+      <option name="closed" value="true" />
+      <created>1737381391472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737381391472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,6 +224,7 @@
     <MESSAGE value="Folder Structure Is Ready" />
     <MESSAGE value="All Practice And Task On 15th Jan" />
     <MESSAGE value="All Practice  On 16th Jan Logs,POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Practice  On 16th Jan Logs,POM" />
+    <MESSAGE value="Selenium Framework 17th Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Framework 17th Jan" />
   </component>
 </project>
