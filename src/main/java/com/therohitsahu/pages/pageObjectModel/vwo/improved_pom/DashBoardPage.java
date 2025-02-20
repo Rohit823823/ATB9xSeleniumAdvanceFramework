@@ -6,19 +6,15 @@ import org.openqa.selenium.WebDriver;
 
 public class DashBoardPage extends CommonToAllPage {
 
-    WebDriver driver;
-
     public DashBoardPage(WebDriver driver) {
-        this.driver=driver;
-
+        super(driver);  // ✅ Call parent constructor
     }
 
-    By usernameOnDashBoard=By.cssSelector("[data-qa=\"lufexuloga\"]");
+    By usernameOnDashBoard = By.cssSelector("[data-qa=\"lufexuloga\"]");
 
-
-    //Page Actions
+    // Page Actions
     public String loggedInUsername() {
-       visibilityOfElement(usernameOnDashBoard);
-        return getText(usernameOnDashBoard);
+        visibilityOfElement(usernameOnDashBoard);
+        return getElement(usernameOnDashBoard).getText();
     }
 }

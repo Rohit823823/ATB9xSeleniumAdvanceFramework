@@ -13,7 +13,9 @@ public class PropertiesReader {
             FileInputStream fileInputStream=new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/data.properties");
             Properties p = new Properties();
             p.load(fileInputStream);
-            return p.getProperty(key);
+            // Return empty string if key is not found
+            String value = p.getProperty(key);
+            return (value != null) ? value : "";  // Prevent returning null
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {

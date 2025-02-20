@@ -1,73 +1,80 @@
 package com.therohitsahu.base;
 
-import com.therohitsahu.utils.PropertiesReader;
+import com.therohitsahu.driver.DriverManagerTL;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.JavascriptExecutor;
 
-import static com.therohitsahu.driver.DriverManager.driver;
-import static com.therohitsahu.driver.DriverManager.getDriver;
-
-
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CommonToAllPage {
 
-    // If you want to call something before every Page Object Class call, Put your Code here");
-    // Open File, Open Data Base Connection You can write code here
-    public CommonToAllPage () {
+    protected WebDriver driver;  // Declare WebDriver instance
 
-        // If you want to call something before every Page Object Class call, Put your Code here");
-        // Open File, Open Data Base Connection You can write code here
+    // Constructor that accepts WebDriver
+    public CommonToAllPage(WebDriver driver) {
+        this.driver = driver;
     }
 
-    public void openWWOUrl(){
-        getDriver().get(PropertiesReader.readKey("url"));
+    // Waits
+    public void implicitWait() {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    public void custom_wait(){
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    // Common Functions
+    public void clickElement(By by) {
+        driver.findElement(by).click();
     }
 
-    public void clickElement (By by){
-        getDriver().findElement(by).click();
-    }
-
-    public void clickElement (WebElement by){
-        by.click();
-    }
-
-    public void enterInput(By by,String key){
-        getDriver().findElement(by).sendKeys(key);
-    }
-
-    public void enterInput(WebElement by,String key){
-        by.sendKeys(key);
-    }
-
-    public String getText(By by){
-        return getDriver().findElement(by).getText();
-    }
-
-    public String getText(WebElement by){
-        return by.getText();
+    public void clickElement(WebElement element) { // Overloaded method for WebElement
+        element.click();
     }
 
     public WebElement presenceOfElement(By elementLocation) {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
+        return new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.presenceOfElementLocated(elementLocation));
     }
 
     public WebElement visibilityOfElement(By elementLocation) {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
+        return new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
+
+    public WebElement visibilityOfElement(WebElement element) {
+        return new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public void enterInput(By by, String key) {
+        WebElement element = driver.findElement(by);
+        element.clear(); // ✅ Clears any existing text before entering new text
+        element.sendKeys(key);
+        System.out.println("Entered text into element: " + key);
+    }
+
+    public void enterInput(WebElement element, String key) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].value='';", element); // ✅ Force clear using JS
+        element.sendKeys(key);
+        System.out.println("Entered text into element: " + key);
+    }
+
 
     public WebElement getElement(By key) {
-        return getDriver().findElement(key);
+        return driver.findElement(key);
     }
 
+    public void iWaitForElementToBeVisible(WebElement loc, String url) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+            wait.until(ExpectedConditions.visibilityOf(loc));
+            wait.until(ExpectedConditions.urlContains(url));
+        } catch (Exception e) {
+            System.out.println("Failed to Wait!: " + e.toString());
+        }
+    }
 }

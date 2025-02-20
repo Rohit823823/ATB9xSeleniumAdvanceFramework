@@ -1,60 +1,23 @@
 package com.therohitsahu.driver;
 
-import com.therohitsahu.utils.PropertiesReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class DriverManager {
 
-    public static WebDriver driver;
+     static WebDriver driver;
 
-    public static WebDriver getDriver() {
-        return driver;
+    @BeforeMethod
+    static void init(){
+        if(driver ==null)
+            driver = new ChromeDriver();
     }
 
-    public static void setDriver(WebDriver driver) {
-        DriverManager.driver = driver;
-    }
-
-    // When we want to start the browser
-    public static void init() {
-
-        String browser = PropertiesReader.readKey("browser");
-        browser = browser.toLowerCase();
-        if (driver == null){
-            switch (browser){
-                case "edge" :
-                    EdgeOptions edgeOptions = new EdgeOptions();
-                    edgeOptions.addArguments("--start-maximized");
-                    edgeOptions.addArguments("--guest");
-                    driver = new EdgeDriver(edgeOptions);
-                    break;
-                case "chrome":
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--start-maximized");
-                    driver = new ChromeDriver(chromeOptions);
-                    break;
-                case "firefox":
-                    FirefoxOptions firefoxOptions = new FirefoxOptions();
-                    firefoxOptions.addArguments("--start-maximized");
-                    driver = new FirefoxDriver(firefoxOptions);
-                    break;
-                default:
-                    System.out.println("Not browser Found!!");
-            }
-
-
-        }
-
-    }
-
+    @AfterMethod
     // When we want to close the browser
-    public static void down(){
+     static void down(){
         if (driver != null) {
             driver.quit();
             driver = null;

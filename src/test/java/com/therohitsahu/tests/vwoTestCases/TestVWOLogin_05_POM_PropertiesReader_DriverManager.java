@@ -8,7 +8,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.therohitsahu.driver.DriverManager;
+import com.therohitsahu.driver.DriverManagerTL;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestVWOLogin_05_POM_PropertiesReader_DriverManager extends CommonToAllTest {
@@ -19,7 +19,7 @@ public class TestVWOLogin_05_POM_PropertiesReader_DriverManager extends CommonTo
 
     public void testLoginNegativeVWO() {
 
-        LoginPage loginPage_VWO = new LoginPage(DriverManager.getDriver());
+        LoginPage loginPage_VWO = new LoginPage(DriverManagerTL.getDriver());
         String error_message = loginPage_VWO.loginToVWOLoginInvalidCreds(PropertiesReader.readKey("invalid_username"),PropertiesReader.readKey("invalid_password"));
 
         // Assertion Assertj
@@ -38,9 +38,9 @@ public class TestVWOLogin_05_POM_PropertiesReader_DriverManager extends CommonTo
 
 
 
-        LoginPage loginPage_VWO = new LoginPage(DriverManager.getDriver());
+        LoginPage loginPage_VWO = new LoginPage(DriverManagerTL.getDriver());
         loginPage_VWO.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
-        DashBoardPage dashBoardPage = new DashBoardPage(DriverManager.getDriver());
+        DashBoardPage dashBoardPage = new DashBoardPage(DriverManagerTL.getDriver());
         String usernameLoggedIn =dashBoardPage.loggedInUsername();
 
         assertThat(usernameLoggedIn).isNotBlank().isNotNull().isNotEmpty();

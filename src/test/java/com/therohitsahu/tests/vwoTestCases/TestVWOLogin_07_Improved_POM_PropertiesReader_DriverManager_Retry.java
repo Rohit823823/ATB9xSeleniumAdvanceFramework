@@ -1,7 +1,7 @@
 package com.therohitsahu.tests.vwoTestCases;
 
 import com.therohitsahu.base.CommonToAllTest;
-import com.therohitsahu.driver.DriverManager;
+import com.therohitsahu.driver.DriverManagerTL;
 import com.therohitsahu.listeners.RetryAnalyzer;
 import com.therohitsahu.pages.pageObjectModel.vwo.normal.DashBoardPage;
 import com.therohitsahu.pages.pageObjectModel.vwo.normal.LoginPage;
@@ -28,7 +28,7 @@ public class TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry e
 
         logger.info("Starting the Testcases Page Object Model|Verify that invalid creds gives error message");
 
-        LoginPage loginPage_VWO = new LoginPage(DriverManager.getDriver());
+        LoginPage loginPage_VWO = new LoginPage(DriverManagerTL.getDriver());
         String error_message = loginPage_VWO.loginToVWOLoginInvalidCreds(PropertiesReader.readKey("invalid_username"),PropertiesReader.readKey("invalid_password"));
 
         logger.info("End of The Test Login Negative VWO !!");
@@ -51,10 +51,10 @@ public class TestVWOLogin_07_Improved_POM_PropertiesReader_DriverManager_Retry e
 
 
 
-        LoginPage loginPage_VWO = new LoginPage(DriverManager.getDriver());
+        LoginPage loginPage_VWO = new LoginPage(DriverManagerTL.getDriver());
         loginPage_VWO.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
 
-        DashBoardPage dashBoardPage = new DashBoardPage(DriverManager.getDriver());
+        DashBoardPage dashBoardPage = new DashBoardPage(DriverManagerTL.getDriver());
         String usernameLoggedIn =dashBoardPage.loggedInUsername();
 
         logger.info("End and Asserting the output test Login Positive VWO !!");
