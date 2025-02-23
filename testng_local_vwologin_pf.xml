@@ -1,0 +1,7 @@
+<suite name="VWO Test Suite" parallel="Methods" thread-count="2">
+    <test name="VWO Login Tests">
+        <classes>
+            <class name="com.therohitsahu.tests.vwoTestCases.pageFactory.TestVWOLogin_PF"/>
+        </classes>
+    </test>
+</suite>
