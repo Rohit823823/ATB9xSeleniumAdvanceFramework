@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Selenium Framework 20th Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,11 +193,11 @@
     </configuration>
     <list>
       <item itemvalue="Maven.ATB9xSeleniumAdvanceFramework [test...]" />
-      <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" />
       <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_grid_vwologin_pf.xml" />
       <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_local-vwologin_pf.xml" />
-      <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" />
       <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanagerTL_pf.xml" />
+      <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng_vwologin_properties_reader_drivermanager.xml" />
+      <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/ATB9xSeleniumAdvanceFramework/testng.xml" />
     </list>
     <recent_temporary>
       <list>
@@ -315,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740285384504</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selenium Framework 20th Jan">
+      <option name="closed" value="true" />
+      <created>1740302030514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740302030515</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
