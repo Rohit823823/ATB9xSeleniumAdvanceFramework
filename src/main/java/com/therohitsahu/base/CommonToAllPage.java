@@ -1,6 +1,6 @@
 package com.therohitsahu.base;
 
-import com.therohitsahu.driver.DriverManagerTL;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -40,7 +40,7 @@ public class CommonToAllPage {
     }
 
     public WebElement visibilityOfElement(By elementLocation) {
-        return new WebDriverWait(driver, Duration.ofSeconds(60))
+        return new WebDriverWait(driver, Duration.ofSeconds(70))
                 .until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
 

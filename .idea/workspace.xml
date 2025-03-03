@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9907530-e26e-41c6-9eed-d46cdddf6330" name="Changes" comment="Selenium Framework 20th Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/base/CommonToAllPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerTL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/therohitsahu/driver/DriverManagerTL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +357,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740998142715</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Selenium Framework 20th Jan">
+      <option name="closed" value="true" />
+      <created>1741000077470</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741000077470</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Selenium Framework 20th Jan">
+      <option name="closed" value="true" />
+      <created>1741000982330</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741000982330</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
