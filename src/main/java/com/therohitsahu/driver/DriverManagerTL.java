@@ -14,8 +14,8 @@ public class DriverManagerTL {
             WebDriverManager.chromedriver().setup();
             WebDriver driver = new ChromeDriver();
 
-            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(90));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
             driverThreadLocal.set(driver);
         }
     }

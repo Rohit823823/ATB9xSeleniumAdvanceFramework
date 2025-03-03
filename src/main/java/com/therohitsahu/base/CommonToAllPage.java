@@ -40,7 +40,7 @@ public class CommonToAllPage {
     }
 
     public WebElement visibilityOfElement(By elementLocation) {
-        return new WebDriverWait(driver, Duration.ofSeconds(20))
+        return new WebDriverWait(driver, Duration.ofSeconds(40))
                 .until(ExpectedConditions.visibilityOfElementLocated(elementLocation));
     }
 
