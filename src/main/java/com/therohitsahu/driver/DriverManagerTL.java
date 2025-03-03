@@ -2,6 +2,7 @@ package com.therohitsahu.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager; // Import WebDriverManager
 import java.time.Duration;
 
 public class DriverManagerTL {
@@ -9,8 +10,11 @@ public class DriverManagerTL {
 
     public static void init() {
         if (driverThreadLocal.get() == null) {
-            WebDriver driver = new ChromeDriver();  // Change based on browser
-            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60)); // Increase timeout
+            // ✅ Fix: Use WebDriverManager to auto-download the correct ChromeDriver version
+            WebDriverManager.chromedriver().setup();
+            WebDriver driver = new ChromeDriver();
+
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             driverThreadLocal.set(driver);
         }
