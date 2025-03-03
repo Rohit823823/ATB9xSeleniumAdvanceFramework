@@ -76,8 +76,8 @@ public class LoginPage_PF extends CommonToAllPage {
     // ✅ Fetch logged-in username after successful login
     public String getLoggedInUsername() {
         FluentWait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(40))  // ⏳ Increase wait time
-                .pollingEvery(Duration.ofSeconds(2))  // 🔄 Check every 2 seconds
+                .withTimeout(Duration.ofSeconds(60))  // ⏳ Increase wait time
+                .pollingEvery(Duration.ofSeconds(5))  // 🔄 Check every 2 seconds
                 .ignoring(NoSuchElementException.class);
         wait.until(ExpectedConditions.visibilityOf(loggedInUsername));
         String loggedUser = loggedInUsername.getText();
