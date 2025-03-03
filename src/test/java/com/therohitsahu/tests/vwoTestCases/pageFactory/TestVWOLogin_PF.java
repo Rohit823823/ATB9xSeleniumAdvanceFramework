@@ -46,23 +46,18 @@ public class TestVWOLogin_PF extends CommonToAllTest {
 
     @Test(groups = "negative")
     public void testLoginNegativeVWO_PF() {
-        WebDriver localDriver = DriverManagerTL.getDriver();  // Get a separate WebDriver instance
-        LoginPage_PF loginPage = new LoginPage_PF(localDriver);
-
         logger.info("Starting Negative Login Test");
 
         String errorMsg = loginPage.loginTOVWOInvalidCreds();
         Assert.assertEquals(errorMsg, PropertiesReader.readKey("error_message"), "Error message mismatch!");
 
-        localDriver.navigate().refresh();  // Refresh page after test
+        driver.navigate().refresh();  // Refresh page after test
         logger.info("Negative test completed successfully!");
     }
 
+
     @Test(groups = "positive", dependsOnGroups = "negative")
     public void testLoginPositiveVWO_PF() {
-        WebDriver localDriver = DriverManagerTL.getDriver();  // Get a separate WebDriver instance
-        LoginPage_PF loginPage = new LoginPage_PF(localDriver);
-
         logger.info("Starting Positive Login Test");
 
         loginPage.loginTOVWOVValidCreds();
@@ -74,18 +69,18 @@ public class TestVWOLogin_PF extends CommonToAllTest {
     }
 
 
+
     @AfterClass
     public void tearDown() {
         logger.info("********** Starting Teardown **********");
-
         if (driver != null) {
-            driver.quit();  // ✅ Ensure browser is closed
+            driver.quit();
             logger.info("✅ WebDriver session terminated successfully!");
         } else {
             logger.warn("⚠️ WebDriver was already null, nothing to close.");
         }
-
         logger.info("********** Teardown Completed **********");
     }
+
 
 }
